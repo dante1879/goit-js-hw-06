@@ -27,5 +27,5 @@ function createBoxes() {
 }
 
 function destroyBoxes() {
-  boxes.innerHTML = "";
+  boxesRef.innerHTML = "";
 }
