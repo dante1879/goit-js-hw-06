@@ -16,7 +16,7 @@ const images = [
 const makeImgMarkUp = ({ url, alt }) => {
   return `
   <li style='margin-right:20px'>
-    <img src="${url}" alt="${alt}" width=600"></img>
+    <img src="${url}" alt="${alt}" width='600px'"></img>
   </li>
   `;
 };
