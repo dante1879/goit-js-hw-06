@@ -24,8 +24,11 @@ function createBoxes() {
     boxesRef.appendChild(div);
     size += 10;
   }
+
+  inputRef.value = "";
 }
 
 function destroyBoxes() {
   boxesRef.innerHTML = "";
+  inputRef.value = "";
 }
