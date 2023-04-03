@@ -17,7 +17,6 @@ function onFormSubmit(event) {
   });
   if (dataToSend["email"] && dataToSend["password"]) {
     console.log(dataToSend);
+    formRef.reset();
   }
-
-  formRef.reset();
 }
